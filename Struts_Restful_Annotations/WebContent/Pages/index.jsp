@@ -16,7 +16,7 @@
 <!-- Below line can be used by changing the action "value" to "I dont Know" in the Controller -->
 <!-- <p>Click <a href="get"> here </a> to retrieve all Users<br/></p> -->
 
-<s:form action='get'>Click here to get the list of all users:	<s:submit/></s:form>
+<s:form action='get'>Click here to get the list of all users:	<s:submit value="CLICK"/></s:form>
 </body>
 </html>
 <%-- <s:url action='hello'/> --%>
