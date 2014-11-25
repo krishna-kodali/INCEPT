@@ -14,13 +14,13 @@ public class UserSVCImpl implements UserSVC{
 	@Override
 	public User getUserByFirstName(String userFirstName) {
 		// TODO Auto-generated method stub
-		return null;
+		return userDAO.getUserByFirstName(userFirstName);
 	}
 
 	@Override
 	public User getUserByLastName(String userLastName) {
 		// TODO Auto-generated method stub
-		return null;
+		return userDAO.getUserByLastName(userLastName);
 	}
 
 	@Override
@@ -34,19 +34,19 @@ public class UserSVCImpl implements UserSVC{
 	public void renameUser(String oldFirstName, String newFirstName,
 			String oldLastName, String newLastName) {
 		// TODO Auto-generated method stub
-		
+		userDAO.renameUser(oldFirstName, newFirstName, oldLastName, newLastName);
 	}
 
 	@Override
 	public void deleteUserByID(long userID) {
 		// TODO Auto-generated method stub
-		
+		userDAO.deleteUserByID(userID);
 	}
 
 	@Override
 	public void deleteUserByName(String userFisrtName, String userLastName) {
 		// TODO Auto-generated method stub
-		
+		userDAO.deleteUserByName(userFisrtName, userLastName);
 	}
 
 	@Override

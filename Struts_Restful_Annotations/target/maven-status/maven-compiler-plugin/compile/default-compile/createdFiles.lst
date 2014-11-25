@@ -1,5 +1,6 @@
 com\ccs\ems\svc\RolesSVCImpl.class
 com\ccs\ems\svc\UserSVC.class
+com\ccs\ems\action\RestController.class
 com\ccs\ems\dao\UserDAO.class
 com\ccs\ems\svc\RolesSVC.class
 com\ccs\ems\model\Roles.class

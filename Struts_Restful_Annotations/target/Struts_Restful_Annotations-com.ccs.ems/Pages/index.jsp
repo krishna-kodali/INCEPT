@@ -11,7 +11,9 @@
 <body>
 <h1>Welcome To Struts 2 Restful Annotations!</h1>
 <p><a href="Pages/CreateUser.jsp">Click here to create User</a></p>
+<p><a href="Pages/DeleteUser.jsp">Click here to delete User</a></p>
 <p><a href="Pages/GetUserById.jsp">Click here to get User by ID</a></p>
+<p><a href="Pages/GetUserByFirstName.jsp">Click here to get User by First Name</a></p>
 
 <!-- Below line can be used by changing the action "value" to "I dont Know" in the Controller -->
 <!-- <p>Click <a href="get"> here </a> to retrieve all Users<br/></p> -->
